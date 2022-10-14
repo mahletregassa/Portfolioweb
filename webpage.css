@@ -1,0 +1,54 @@
+.apple {
+  background-image: url('apple-clone.png');
+  background-size: cover;
+  height: 200px;
+  background-position: center;
+  border: 1px solid #ddd; /* Gray border */
+  border-radius: 4px;  /* Rounded border */
+  padding: 5px; /* Some padding */
+  width: 500px; /* Set a small width */
+}
+.news {
+  background-image: url('news-clone.png');
+  border: 1px solid #ddd; /* Gray border */
+  border-radius: 4px;  /* Rounded border */
+  padding: 5px; /* Some padding */
+  width: 500px; /* Set a small width */
+  background-size: cover;
+  height:200px;
+  background-position: center;
+}
+.air {
+  background-image: url('airbnb-clone.png');
+  background-size: cover;
+  border-radius: 4px;
+  height: 200px;
+  width: 500px;
+  background-position: center;
+  padding: 5px; /* Some padding */
+  border: 1px solid #ddd; 
+}
+
+@media (min-width: 768px) {
+  .apple {
+    padding-top: calc(2 / 3.5 * 100%);
+    /* change to landscape aspect ratio on md breakpoint and up */
+  }
+}
+@media (min-width: 768px) {
+  .news {
+    padding-top: calc(2 / 3.5 * 100%);
+    /* change to landscape aspect ratio on md breakpoint and up */
+  }
+}
+@media (min-width: 768px) {
+  .air {
+    padding-top: calc(2 / 3.5 * 100%);
+    /* change to landscape aspect ratio on md breakpoint and up */
+  }
+}
+
+
+
+
+
